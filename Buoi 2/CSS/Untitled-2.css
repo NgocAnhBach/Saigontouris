@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+*{box-sizing: border-box} /*day la lenh de khai bao box can theo le cua hinh*/
+/*.box{
+	width: 500px; height: 500px; border/*khai bao vien chieu rong duong vien lien mau sac: 1px solid red; border-radius/*day la lenh de khai bao do cong cua goc tren hinh co the khai bao 4 canh nhu 10px 20px 50px 20px: 10px 
+*/
+
+/*tao khai bao cho phan body*/
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16px; color: #EFB4B5; margin: 0
+}
+/*kha bao hinh di theo size box*/
+.img_100{
+	width: 100%; height: auto /*khai bao chieu rang va cao cua hinh di theo box thuong chi 1 canh 100% con canh con lai auto*/
+}
+/*xong phan banner*/
+
+.container{
+	width: 80%; margin: 0 auto /*o day khai bao cho phan container (noi dung)*/
+}
+.header{
+	width: 100%; height: 60px; background-color: #E9575A /*nay khai bao header*/
+}
+.logo{
+	float: left
+}
+.menu{
+	float: right;padding-top: 17px
+}
+.menu a{
+	padding: 10px 25px; text-decoration: none; font-weight: 600; font-size: 17px; text-transform: capitalize; color: white
+}
+.menu a:hover{
+	color: yellow
+}
+/*xong phan header*/
+main{
+	width: 100%; min-height:500px; clear: both
+}
+.w_25{
+	width: 25%; padding: 15px; float: left
+}
+.vien{
+	width: 100%; min-height: 200px; border: 1px solid blue; border-radius: 10px; padding: 10px; text-align: center; margin-top: 30px; margin-bottom: 30px
+}
+.bo_goc{
+	border-radius: 10px
+}
+.Tour{
+	color: #EC292C; font-size: 19px
+}
+.Gia{
+	color: #1D1BE5; font-weight: bold
+}
+/*xong phan main*/
+.flooter{
+	width: 100%; height: 50px; background-color: #E9575A; clear: both/*nay khai bao header*/; line-height: 50px
+}
+.ket{
+	color: white; font-size: 17px; font-weight: bold; text-align: center
+}
